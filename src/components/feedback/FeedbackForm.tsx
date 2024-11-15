@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MAX_CHARACTERS } from "../lib/contants";
+import { MAX_CHARACTERS } from "../../lib/contants";
 
 type FeedbackFormProps = {
   onAddToList: (text: string) => void;
